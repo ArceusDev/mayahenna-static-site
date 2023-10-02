@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-size: 10vw;
+    padding-top: 5vw;
+}
+.top_border {
+    height: 15vw;
+    background-image: url("resources/images/top-left-flowers.png"),
+                        url("resources/images/top-right-flowers.png");
+    background-size: contain;
+    background-position: top left, top right;
+    background-repeat: no-repeat;
+}
+.middle_border {
+    background-image: url("resources/images/left-flower-border.png"),
+                        url("resources/images/right-flower-border.png");
+    background-size: 4vw;
+    background-position: top left, top right;
+    background-repeat: repeat-y, repeat-y;
+}
+.bottom_border {
+    height: 15vw;
+    background-image: url("resources/images/bottom-left-flowers.png"),
+                        url("resources/images/bottom-right-flowers.png");
+    background-size: contain;
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
